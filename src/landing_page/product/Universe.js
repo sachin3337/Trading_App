@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Universe() {
+
+   const navigate = useNavigate();
+
+  const goToRegister = () => {
+    navigate("/Signup"); // Navigate to register page
+  };
+
   return (
     <div className="container">
       <div className="row text-center mt-5">
@@ -22,7 +30,7 @@ function Universe() {
           <p className="mt-3 text-muted text-small">Algo & strategy platform</p>
           <img src="media/images/goldenpiLogo.png" alt="" style={{width:"45%"}} className="mt-5"/>
           <p className="mt-3 text-muted text-small">Bonds trading platform</p>
-          <button className='btn btn-primary mt-5 mb-5' style={{width:"45%"}} >Sign up now</button>
+          <button onClick={goToRegister} className='btn btn-primary mt-5 mb-5' style={{width:"45%"}} >Sign up now</button>
         </div>
         <div className="col">
           <img src="media/images/sensibullLogo.svg" alt="" style={{width:"50%"}} className="mt-3"/>
