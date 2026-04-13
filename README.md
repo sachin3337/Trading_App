@@ -1,4 +1,3 @@
-# 🟦 Zerodha Clone
 
 A fully responsive frontend clone of the Zerodha trading platform.  
 This project replicates the UI and overall experience of the original website for **learning and educational purposes** only.
@@ -31,3 +30,26 @@ This project replicates the UI and overall experience of the original website fo
 ---
 
 ## 📁 Folder Structure
+/zerodha-clone
+|— /public
+|— /src
+|— /components
+|— /pages
+|— /assets
+|— App.js
+|— index.js
+|— package.json
+|— README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/zerodha-clone.git
+2️⃣ Install dependencies
+npm install
+3️⃣ Run the development server
+npm start
